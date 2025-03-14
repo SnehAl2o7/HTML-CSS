@@ -1,0 +1,31 @@
+/* external css can also be used for multiple lines*/
+body{
+    background-color: black;
+}
+
+h1{
+    color: rgb(159, 210, 255);
+}
+
+/*
+this is for id 
+#p1{
+    color: red;
+}
+#p2{
+    color: greenyellow;
+}
+#p3{
+    color: violet;
+}
+#p4{
+    color: white;
+} */
+
+/* this is for class*/
+.odd{
+    color: red;
+}
+.even{
+    color:greenyellow;
+}
