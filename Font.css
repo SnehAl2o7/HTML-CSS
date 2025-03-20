@@ -1,0 +1,11 @@
+h1{
+    font-family: Roboto;
+}
+p{
+    font-family: arial;
+    font-size: 10em;
+   /*  em is the standard of unit means 
+    it equal to 100 like 1em is 100% */
+    font-weight: bold;
+    font-style: italic;
+}
