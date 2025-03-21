@@ -1,0 +1,18 @@
+h1{
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: blueviolet; */
+
+    border: 5px solid rgb(160, 78, 237);
+    border-radius: 80px;
+}
+
+#p1{
+    border-bottom: 5px solid rgb(160, 78, 237);
+    border-top: 5px solid rgb(45, 34, 150);
+    border-left: 5px dotted rgb(47, 181, 42);
+    border-right: 5px dashed rgb(239, 235, 29);
+
+    border-radius: 40px;
+    
+}
