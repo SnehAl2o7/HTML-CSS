@@ -1,0 +1,13 @@
+h2{
+    text-shadow: 2.8px 1.5px 2px rgb(203, 98, 98), -2.8px -1.5px 2px rgb(2, 68, 1);
+    /* these are the horizontal and vertical aspects
+        a third number can also be added as a blur radius 
+        we can add colour and more showdow that will be comma separated*/
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 5px rgba(234, 43, 9, 0.5);
+}
