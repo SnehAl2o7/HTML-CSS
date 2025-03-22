@@ -11,10 +11,14 @@ body{
 #imag2{
     float: right;
 }
-
-div{
-    border: 2px solid;
-    height: 75px;
-    overflow: hidden;
-    overflow: auto;
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: solid 3px;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
 }
