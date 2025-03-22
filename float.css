@@ -1,0 +1,17 @@
+body{
+    border:  px solid;
+
+}
+
+/* it is used to wrapping up of data.*/
+#imag1{
+    float: left;
+    margin-right: 10px;
+}
+
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: hidden;
+    overflow: auto;
+}
