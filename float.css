@@ -1,12 +1,15 @@
 body{
     border:  px solid;
-
 }
 
 /* it is used to wrapping up of data.*/
 #imag1{
     float: left;
     margin-right: 10px;
+}
+
+#imag2{
+    float: right;
 }
 
 div{
