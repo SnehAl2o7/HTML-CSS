@@ -1,0 +1,21 @@
+/*
+combinators = explains the relationship between listed selectors
+| = descendant
+> = child
+~ = sibling
++ = adjacent sibling
+
+selector > selector
+
+div > p
+*/
+
+#container{
+    border: 2px solid black;
+}
+
+#container + p{
+    background-color: yellow;
+}
+
+
