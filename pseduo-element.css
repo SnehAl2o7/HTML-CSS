@@ -1,0 +1,42 @@
+/*
+pseduo-elements -> keywords added after a selector that's used to style 
+a specific part of an element
+
+h1:: pseudo-elemet
+*/
+
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: rgb(13, 231, 78);
+
+}
+
+p::selection{
+    color: rgb(110, 226, 64);
+    background-color: black;
+}
+
+#fruit li::before{
+    content: ":)";
+}
+#apple::after{
+    content: "apple";
+}
+
+#banana::after{
+    content: "banana";
+}
+
+#orange::after{
+    content: "orange";
+}
+
+#fruit li::marker{
+    content: "{:]}";
+    color:rgb(10, 248, 2);
+    font-size: 1.4em;
+}
