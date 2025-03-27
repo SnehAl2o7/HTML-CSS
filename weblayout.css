@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aliceblue;
+    text-align: centre;
+    padding: 25px;
+}
+
+.navi{
+    background-color: blueviolet;
+    height: 50px;
+}
+
+aside{
+    width:20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width:30%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 25px;
+
+}
+
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+}
